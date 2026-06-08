@@ -1,9 +1,0 @@
-=== Chinese text in context ===
-[无法合并]: ...or&&(null==t||e.details.reason===t)}constructor(e,t){super("无法合并",e,t)}buildErrorMessage(e){let t=`Unable to merge${e.ref?` ...
-[刷新]: ...tip:"稍后提醒"},W={iconPath:new r.ThemeIcon("refresh"),tooltip:"刷新",location:a(r.QuickInputButtonLocation.Inline)},N={iconPath...
-[提交图]: ...审阅"},r));break;case"open-in-graph":t.push((0,v.Xt)({label:"在提交图中打开"},r))}return t}let n=this.createConfirmStep(`Launchpad \...
-
-=== English remnants check ===
-"Unable to merge": 0 occurrences
-"Refresh": 0 occurrences
-"Commit Graph": 0 occurrences

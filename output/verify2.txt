@@ -1,5 +1,0 @@
-[OK] Refresh tooltip: hemeIcon("refresh"),tooltip:"刷新",location:a(r.QuickI
-[OK] Open Changes tooltip: ("compare-changes"),tooltip:"打开更改"},j={iconPath:new r.
-[FAIL] Compare tooltip: tooltip:"比较" not found
-[FAIL] Commit Graph label: label:"提交图" not found
-[OK] Delete title: "),async e=>{let t={title:"删除"};await r.window.sho

@@ -18,8 +18,14 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Output (可选择性忽略)
-# output/
+# 生成的输出文件（需要时可重新生成）
+output/
+
+# 工具自动生成的文档
+.qoder/
+
+# Claude Code 本地配置
+.claude/
 
 # 临时文件
 *.tmp

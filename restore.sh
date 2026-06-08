@@ -1,23 +1,23 @@
 #!/bin/bash
 
 echo "========================================"
-echo "GitLens 中文翻译安装工具"
+echo "GitLens 英文原版恢复工具"
 echo "========================================"
 echo
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-echo "[1/2] 安装 package.json 翻译..."
+echo "[1/2] 恢复 package.json..."
 echo
-python3 "$SCRIPT_DIR/translate.py" install
+python3 "$SCRIPT_DIR/translate.py" restore
 echo
 
-echo "[2/2] 应用 JS 文件翻译..."
+echo "[2/2] 恢复 JS 文件..."
 echo
-python3 "$SCRIPT_DIR/translate_js.py" apply
+python3 "$SCRIPT_DIR/translate_js.py" restore
 echo
 
 echo "========================================"
-echo "翻译安装完成！请重启 VS Code/Cursor。"
+echo "已恢复英文原版！请重启 VS Code/Cursor。"
 echo "========================================"
 echo
