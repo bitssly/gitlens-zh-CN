@@ -1,0 +1,3796 @@
+[
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.autoFetch.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to auto-fetch the repository while the _Commit Graph_ is in view. The interval is controlled by the built-in `#git.autofetchPeriod#` setting. If `#git.autofetch#` is enabled, VS Code handles auto-fetching and this setting has no effect."
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.details.location",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the location of the details panel in the _Commit Graph_"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.details.location",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Show the details panel to the right of the Commit Graph"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.details.location",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Show the details panel below the Commit Graph"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.editorOpeningBehavior",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies which editor group editors (files, diffs, etc.) opened from the _Commit Graph_ should appear in when the graph is in an editor tab. Has no effect when the graph is shown as a panel."
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.editorOpeningBehavior",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Opens editors beside the Commit Graph when it is the active editor; otherwise opens in the active editor group"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.editorOpeningBehavior",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Always opens editors in the active editor group"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.multiselect",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Disallows selecting multiple commits"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.multiselect",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Allows selecting multiple commits without restriction"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.multiselect",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Allows selecting multiple commits topologically"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.minimap.reversed",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to reverse the minimap orientation in the _Commit Graph_ so that older commits appear on the left and newer commits on the right"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.sidebar.pinned",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether the _Commit Graph_ sidebar is pinned. When pinned, the sidebar shares space with the graph; when unpinned, the sidebar floats over the graph and auto-collapses when it loses focus"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.branchesVisibility",
+    "field": "enumDescriptions",
+    "arr_idx": 3,
+    "en": "Shows only favorited branches"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.branchesVisibility",
+    "field": "enumDescriptions",
+    "arr_idx": 4,
+    "en": "Shows only branches associated with active agents (running or idle less than 24 hours)"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.initialRowSelection",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies which row to select by default in the _Commit Graph_"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.initialRowSelection",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Selects the \"Work in progress\" (WIP) row"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.initialRowSelection",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Selects the HEAD row"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.dateStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "e.g. July 25th, 2018 7:18pm"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.stickyTimeline",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show a sticky timeline header that remains visible at the top while scrolling in the _Commit Graph_"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.showWorktreeWipStats",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show inline working tree change stats on every worktree's _WIP_ row in the _Commit Graph_. When disabled, only the primary worktree's _WIP_ row and the currently-selected worktree's _WIP_ row show stats — which avoids an initial `git status` per worktree as rows scroll into view in large graphs"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.experimental.kanban.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "(Experimental) Specifies whether to enable the Agent Kanban mode on the _Commit Graph_"
+  },
+  {
+    "cfg_idx": 8,
+    "prop_name": "gitlens.graph.experimental.visualizations.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "(Experimental) Specifies whether to enable the Treemap visualization modes (Files, Commits, Agent Activity) alongside the Visual History timeline on the _Commit Graph_. When disabled, only the timeline visualization is available."
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.ignoredRepositories",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the repositories to ignore in the _Launchpad_"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.includedOrganizations",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the organizations to include in the _Launchpad_. If empty, all organizations are included"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.ignoredOrganizations",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the organizations to ignore in the _Launchpad_"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.staleThreshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the number of days after which a pull request is considered stale and moved to Other in the _Launchpad_"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to enable status bar indicator for _Launchpad_"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the style of the  _Launchpad_ status bar indicator icon"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the Launchpad icon"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the icon of the highest priority group"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.label",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the display of the  _Launchpad_ status bar indicator label"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.label",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Hides the label"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.label",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the highest priority item which needs your attention"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.label",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Shows the status counts of items which need your attention"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.groups",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the groups of pull requests to show on the _Launchpad_ status bar indicator"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.useColors",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to use colors on the _Launchpad_ status bar indicator"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.polling.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether the status bar indicator will fetch and display pull request data for _Launchpad_"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.indicator.polling.interval",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the rate (in minutes) at which the status bar indicator will fetch pull request data for _Launchpad_. Use 0 to disable automatic polling"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.allowMultiple",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to allow opening multiple instances of the _Launchpad_ as an editor tab"
+  },
+  {
+    "cfg_idx": 9,
+    "prop_name": "gitlens.launchpad.experimental.queryLimit",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "(Experimental) Specifies a limit on the number of pull requests to be queried in the _Launchpad_"
+  },
+  {
+    "cfg_idx": 10,
+    "prop_name": "gitlens.cloudPatches.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to enable the preview of _Cloud Patches_, which allow you to privately and securely share code with specific teammates and other developers"
+  },
+  {
+    "cfg_idx": 10,
+    "prop_name": "gitlens.cloudPatches.experimental.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "(Experimental) Specifies the preferred layout of for _Cloud Patches_"
+  },
+  {
+    "cfg_idx": 10,
+    "prop_name": "gitlens.cloudPatches.experimental.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Prefer showing Cloud Patches in the editor area"
+  },
+  {
+    "cfg_idx": 10,
+    "prop_name": "gitlens.cloudPatches.experimental.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Prefer showing Cloud Patches in a view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the default view to show when the _GitLens_ view is opened"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Commits view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Worktrees view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Branches view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 3,
+    "en": "Remotes view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 4,
+    "en": "Stashes view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 5,
+    "en": "Tags view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 6,
+    "en": "Contributors view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 7,
+    "en": "Repositories view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 8,
+    "en": "File History view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 9,
+    "en": "Launchpad view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.default",
+    "field": "enumDescriptions",
+    "arr_idx": 10,
+    "en": "Search & Compare view"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.views",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies which views will be grouped into the _GitLens_ view on the Source Control side bar"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.scm.grouped.hiddenViews",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies which views will be hidden, when grouped into the _GitLens_ view on the Source Control side bar"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.collapseWorktreesWhenPossible",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to try to collapse the opened worktrees into a single (common) repository in the views when possible"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.multiselect",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to allow selecting multiple items in the views"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.showCurrentBranchOnTop",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to always show the current branch at the top of the views"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.showComparisonContributors",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show a _Contributors_ section on comparison results in the views"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.showContributorsStatistics",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show contributor statistics in _Contributors_ sections in the views. This can take a while to compute depending on the repository size"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.showRelativeDateMarkers",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show relative date markers (_Less than a week ago_, _Over a week ago_, _Over a month ago_, etc) on revision (commit) histories in the views"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.defaultItemLimit",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the default number of items to show in a view list. Use 0 to specify no limit"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.pageItemLimit",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the number of items to show in a each page when paginating a view list. Use 0 to specify no limit"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.formats.commits.label",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the format of commits in the views. See [_Commit Tokens_](https://github.com/gitkraken/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.formats.commits.description",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the description format of commits in the views. See [_Commit Tokens_](https://github.com/gitkraken/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.formats.commits.tooltip",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the tooltip format (in markdown) of commits in the views. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.formats.commits.tooltipWithStatus",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the tooltip format (in markdown) of \"file\" commits in the views. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.formats.files.label",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the format of a file in the views. See [_File Tokens_](https://github.com/gitkraken/vscode-gitlens/wiki/Custom-Formatting#file-tokens) in the GitLens docs"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.formats.files.description",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the description format of a file in the views. See [_File Tokens_](https://github.com/gitkraken/vscode-gitlens/wiki/Custom-Formatting#file-tokens) in the GitLens docs"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.formats.stashes.label",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the format of stashes in the views. See [_Commit Tokens_](https://github.com/gitkraken/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.formats.stashes.description",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the description format of stashes in the views. See [_Commit Tokens_](https://github.com/gitkraken/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.formats.stashes.tooltip",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the tooltip format (in markdown) of stashes in the views. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs"
+  },
+  {
+    "cfg_idx": 11,
+    "prop_name": "gitlens.views.openChangesInMultiDiffEditor",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to open multiple changes in the multi-diff editor (single tab) or in individual diff editors (multiple tabs)"
+  },
+  {
+    "cfg_idx": 12,
+    "prop_name": "gitlens.views.launchpad.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Launchpad_ view will display files"
+  },
+  {
+    "cfg_idx": 12,
+    "prop_name": "gitlens.views.launchpad.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.launchpad.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 12,
+    "prop_name": "gitlens.views.launchpad.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 12,
+    "prop_name": "gitlens.views.launchpad.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 12,
+    "prop_name": "gitlens.views.launchpad.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Launchpad_ view. Only applies when `#gitlens.views.launchpad.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 12,
+    "prop_name": "gitlens.views.launchpad.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Launchpad_ view. Only applies when `#gitlens.views.launchpad.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 12,
+    "prop_name": "gitlens.views.launchpad.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Launchpad_ view will display file icons"
+  },
+  {
+    "cfg_idx": 12,
+    "prop_name": "gitlens.views.launchpad.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 12,
+    "prop_name": "gitlens.views.launchpad.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 12,
+    "prop_name": "gitlens.views.launchpad.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Launchpad_ view"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.showStashes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show stashes in the _Commits_ view"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.showBranchComparison",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show a comparison of the current branch or the working tree with a user-selected reference (branch, tag, etc) in the _Commits_ view"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Hides the branch comparison"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Compares the current branch with a user-selected reference"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Compares the working tree with a user-selected reference"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.pullRequests.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to query for pull requests associated with the current branch and commits in the _Commits_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.pullRequests.showForBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with the current branch in the _Commits_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.pullRequests.showForCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with commits in the _Commits_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Commits_ view will display files"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.commits.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Commits_ view. Only applies when `#gitlens.views.commits.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Commits_ view. Only applies when `#gitlens.views.commits.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Commits_ view will display file icons"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Commits_ view"
+  },
+  {
+    "cfg_idx": 13,
+    "prop_name": "gitlens.views.commits.reveal",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to reveal commits in the _Commits_ view, otherwise they revealed in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.autolinks.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to automatically link external resources in commit messages"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.autolinks.enhanced",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to lookup additional details about automatically link external resources in commit messages. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.pullRequests.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to query for associated pull requests. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Commit Details_ view will display files"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.commitDetails.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Commit Details_ view. Only applies when `#gitlens.views.commitDetails.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Commit Details_ view. Only applies when `#gitlens.views.commitDetails.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Commit Details_ view will display file icons"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 14,
+    "prop_name": "gitlens.views.commitDetails.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Commit Details_ view"
+  },
+  {
+    "cfg_idx": 15,
+    "prop_name": "gitlens.views.pullRequest.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Pull Request_ view will display files"
+  },
+  {
+    "cfg_idx": 15,
+    "prop_name": "gitlens.views.pullRequest.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.pullRequest.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 15,
+    "prop_name": "gitlens.views.pullRequest.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 15,
+    "prop_name": "gitlens.views.pullRequest.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 15,
+    "prop_name": "gitlens.views.pullRequest.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Pull Request_ view. Only applies when `#gitlens.views.pullRequest.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 15,
+    "prop_name": "gitlens.views.pullRequest.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Pull Request_ view. Only applies when `#gitlens.views.pullRequest.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 15,
+    "prop_name": "gitlens.views.pullRequest.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Pull Request_ view will display file icons"
+  },
+  {
+    "cfg_idx": 15,
+    "prop_name": "gitlens.views.pullRequest.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 15,
+    "prop_name": "gitlens.views.pullRequest.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 15,
+    "prop_name": "gitlens.views.pullRequest.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Pull Request_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showBranchComparison",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show a comparison of the current branch or the working tree with a user-selected reference (branch, tag, etc) in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Hides the branch comparison"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Compares the current branch with a user-selected reference"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Compares the working tree with a user-selected reference"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showUpstreamStatus",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the upstream status of the current branch for each repository in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.includeWorkingTree",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to include working tree file status for each repository in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.pullRequests.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to query for pull requests associated with branches and commits in the _Repositories_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.pullRequests.showForBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with branches in the _Repositories_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.pullRequests.showForCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with commits in the _Repositories_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the commits on the current branch for each repository in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the branches for each repository in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showRemotes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the remotes for each repository in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showStashes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the stashes for each repository in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showTags",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the tags for each repository in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showContributors",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the contributors for each repository in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showWorktrees",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the worktrees for each repository in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.showIncomingActivity",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the experimental incoming activity for each repository in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.autoRefresh",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to automatically refresh the _Repositories_ view when the repository or the file system changes"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.autoReveal",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to automatically reveal repositories in the _Repositories_ view when opening files"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.branches.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Repositories_ view will display branches and tags"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays branches and tags as a list"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays branches and tags as a tree when names contain slashes `/`"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.branches.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary branch and tag nesting in the _Repositories_ view. Only applies when `#gitlens.views.repositories.branches.layout#` is set to `tree`"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Repositories_ view will display files"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.repositories.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Repositories_ view. Only applies when `#gitlens.views.repositories.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Repositories_ view. Only applies when `#gitlens.views.repositories.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Repositories_ view will display file icons"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the _Repositories_ view in a compact display density"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.branches.showStashes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show stashes in the _Commits_ and _Branches_ sections of the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.branches.showBranchComparison",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show a comparison of the branch with a user-selected reference (branch, tag, etc) under each branch in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.branches.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Hides the branch comparison"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.branches.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Compares the branch with a user-selected reference"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.worktrees.viewAs",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Repositories_ view will display worktrees"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.worktrees.viewAs",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays worktree name"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.worktrees.viewAs",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays worktree path"
+  },
+  {
+    "cfg_idx": 16,
+    "prop_name": "gitlens.views.repositories.worktrees.viewAs",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays worktree relative path"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.mode",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the default mode for the _File History_ view"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.mode",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays commits for the selected file or folder"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.mode",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays contributors for the selected file or folder"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.pullRequests.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to query for pull requests associated with commits in the _File History_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.pullRequests.showForCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with commits in the _File History_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _File History_ view will display files"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.fileHistory.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _File History_ view. Only applies when `#gitlens.views.fileHistory.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _File History_ view. Only applies when `#gitlens.views.fileHistory.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _File History_ view will display file icons"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.views.fileHistory.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of status icons in the _File History_ view"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.advanced.fileHistoryFollowsRenames",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether file histories will follow renames"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.advanced.fileHistoryShowAllBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether file histories will show commits from all branches"
+  },
+  {
+    "cfg_idx": 17,
+    "prop_name": "gitlens.advanced.fileHistoryShowMergeCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether file histories will show merge commits"
+  },
+  {
+    "cfg_idx": 18,
+    "prop_name": "gitlens.visualHistory.allowMultiple",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to allow opening multiple instances of the _Visual File History_ in the editor area"
+  },
+  {
+    "cfg_idx": 18,
+    "prop_name": "gitlens.visualHistory.editorOpeningBehavior",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies which editor group editors (files, diffs, etc.) opened from the _Visual File History_ should appear in when it is in an editor tab. Has no effect when shown in a sidebar."
+  },
+  {
+    "cfg_idx": 18,
+    "prop_name": "gitlens.visualHistory.editorOpeningBehavior",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Opens editors beside the Visual File History when it is the active editor; otherwise opens in the active editor group"
+  },
+  {
+    "cfg_idx": 18,
+    "prop_name": "gitlens.visualHistory.editorOpeningBehavior",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Always opens editors in the active editor group"
+  },
+  {
+    "cfg_idx": 18,
+    "prop_name": "gitlens.visualHistory.queryLimit",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the limit on the how many commits can be queried for statistics in the _Visual File History_, because of rate limits. Only applies to virtual workspaces."
+  },
+  {
+    "cfg_idx": 19,
+    "prop_name": "gitlens.views.lineHistory.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of status icons in the _Line History_ view"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.showRemoteBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show remote branches for the default remote in the _Branches_ view"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.showStashes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show stashes in the _Branches_ view"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.showBranchComparison",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show a comparison of the branch with a user-selected reference (branch, tag, etc) in the _Branches_ view"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Hides the branch comparison"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Compares the branch with a user-selected reference"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.pullRequests.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to query for pull requests associated with each branch and commits in the _Branches_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.pullRequests.showForBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with each branch in the _Branches_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.pullRequests.showForCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with commits in the _Branches_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.branches.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Branches_ view will display branches"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays branches as a list"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays branches as a tree when names contain slashes `/`"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.branches.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary branch nesting in the _Branches_ view. Only applies when `#gitlens.views.branches.branches.layout#` is set to `tree`"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Branches_ view will display files"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.branches.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Branches_ view. Only applies when `#gitlens.views.branches.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Branches_ view. Only applies when `#gitlens.views.branches.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Branches_ view will display file icons"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Branches_ view"
+  },
+  {
+    "cfg_idx": 20,
+    "prop_name": "gitlens.views.branches.reveal",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to reveal branches in the _Branches_ view, otherwise they revealed in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.pullRequests.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to query for pull requests associated with each branch and commits in the _Remotes_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.pullRequests.showForBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with each branch in the _Remotes_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.pullRequests.showForCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with commits in the _Remotes_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.branches.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Remotes_ view will display branches"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays branches as a list"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays branches as a tree when names contain slashes `/`"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.branches.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary branch nesting in the _Remotes_ view. Only applies when `#gitlens.views.remotes.branches.layout#` is set to `tree`"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Remotes_ view will display files"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.remotes.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Remotes_ view. Only applies when `#gitlens.views.remotes.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Remotes_ view. Only applies when `#gitlens.views.remotes.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Remotes_ view will display file icons"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Remotes_ view"
+  },
+  {
+    "cfg_idx": 21,
+    "prop_name": "gitlens.views.remotes.reveal",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to reveal remotes in the _Remotes_ view, otherwise they revealed in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 22,
+    "prop_name": "gitlens.views.stashes.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Stashes_ view will display files"
+  },
+  {
+    "cfg_idx": 22,
+    "prop_name": "gitlens.views.stashes.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.stashes.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 22,
+    "prop_name": "gitlens.views.stashes.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 22,
+    "prop_name": "gitlens.views.stashes.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 22,
+    "prop_name": "gitlens.views.stashes.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Stashes_ view. Only applies when `#gitlens.views.stashes.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 22,
+    "prop_name": "gitlens.views.stashes.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Stashes_ view. Only applies when `#gitlens.views.stashes.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 22,
+    "prop_name": "gitlens.views.stashes.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Stashes_ view will display file icons"
+  },
+  {
+    "cfg_idx": 22,
+    "prop_name": "gitlens.views.stashes.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 22,
+    "prop_name": "gitlens.views.stashes.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 22,
+    "prop_name": "gitlens.views.stashes.reveal",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to reveal stashes in the _Stashes_ view, otherwise they revealed in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.branches.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Tags_ view will display tags"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays tags as a list"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays tags as a tree when names contain slashes `/`"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.branches.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary tag nesting in the _Tags_ view. Only applies when `#gitlens.views.tags.branches.layout#` is set to `tree`"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Tags_ view will display files"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.tags.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Tags_ view. Only applies when `#gitlens.views.tags.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Tags_ view. Only applies when `#gitlens.views.tags.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Tags_ view will display file icons"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Tags_ view"
+  },
+  {
+    "cfg_idx": 23,
+    "prop_name": "gitlens.views.tags.reveal",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to reveal tags in the _Tags_ view, otherwise they revealed in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.worktrees.promptForLocation",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to prompt for a path when creating new worktrees"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.worktrees.defaultLocation",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the default path in which new worktrees will be created"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.worktrees.openAfterCreate",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how and when to open a worktree after it is created"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.worktrees.openAfterCreate",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Always open the new worktree in the current window"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.worktrees.openAfterCreate",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Always open the new worktree in a new window"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.worktrees.openAfterCreate",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Only open the new worktree in the current window when no folder is opened"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.worktrees.openAfterCreate",
+    "field": "enumDescriptions",
+    "arr_idx": 3,
+    "en": "Never open the new worktree"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.worktrees.openAfterCreate",
+    "field": "enumDescriptions",
+    "arr_idx": 4,
+    "en": "Always prompt to open the new worktree"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.showStashes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show stashes in the _Worktrees_ view"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.showBranchComparison",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show a comparison of the worktree branch with a user-selected reference (branch, tag, etc) in the _Worktrees_ view"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Hides the branch comparison"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Compares the worktree branch with a user-selected reference"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.pullRequests.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to query for pull requests associated with the worktree branch and commits in the _Worktrees_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.pullRequests.showForBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with the worktree branch in the _Worktrees_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.pullRequests.showForCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with commits in the _Worktrees_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.worktrees.viewAs",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Worktrees_ view will display worktrees"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.worktrees.viewAs",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays worktree name"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.worktrees.viewAs",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays worktree path"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.worktrees.viewAs",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays worktree relative path"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.branches.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Worktrees_ view will display worktree branches"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays worktree branches as a list"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays worktree branches as a tree when names contain slashes `/`"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.branches.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary branch nesting in the _Worktrees_ view. Only applies when `#gitlens.views.worktrees.branches.layout#` is set to `tree`"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Worktrees_ view will display files"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.worktrees.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Worktrees_ view. Only applies when `#gitlens.views.worktrees.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Worktrees_ view. Only applies when `#gitlens.views.worktrees.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Worktrees_ view will display file icons"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Worktrees_ view"
+  },
+  {
+    "cfg_idx": 24,
+    "prop_name": "gitlens.views.worktrees.reveal",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to reveal worktrees in the _Worktrees_ view, otherwise they revealed in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.showAllBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show commits from all branches in the _Contributors_ view"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.showStatistics",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show contributor statistics in the _Contributors_ view. This can take a while to compute depending on the repository size"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.pullRequests.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to query for pull requests associated with branches and commits in the _Contributors_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.pullRequests.showForCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with commits in the _Contributors_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Contributors_ view will display files"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.contributors.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Contributors_ view. Only applies when `#gitlens.views.contributors.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Contributors_ view. Only applies when `#gitlens.views.contributors.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Contributors_ view will display file icons"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Contributors_ view"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.reveal",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to reveal contributors in the _Contributors_ view, otherwise they revealed in the _Repositories_ view"
+  },
+  {
+    "cfg_idx": 25,
+    "prop_name": "gitlens.views.contributors.maxWait",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the maximum amount of time (in seconds) to wait for all contributors to load. Use 0 to wait indefinitely (no timeout)"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.pullRequests.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to query for pull requests associated with commits in the _Search & Compare_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.pullRequests.showForCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with commits in the _Search & Compare_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Search & Compare_ view will display files"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.searchAndCompare.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Search & Compare_ view. Only applies when `#gitlens.views.searchAndCompare.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Search & Compare_ view. Only applies when `#gitlens.views.searchAndCompare.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Search & Compare_ view will display file icons"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 26,
+    "prop_name": "gitlens.views.searchAndCompare.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Search & Compare_ view"
+  },
+  {
+    "cfg_idx": 27,
+    "prop_name": "gitlens.views.drafts.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Cloud Patches_ view will display files"
+  },
+  {
+    "cfg_idx": 27,
+    "prop_name": "gitlens.views.drafts.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.drafts.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 27,
+    "prop_name": "gitlens.views.drafts.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 27,
+    "prop_name": "gitlens.views.drafts.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 27,
+    "prop_name": "gitlens.views.drafts.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Cloud Patches_ view. Only applies when `#gitlens.views.drafts.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 27,
+    "prop_name": "gitlens.views.drafts.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Cloud Patches_ view. Only applies when `#gitlens.views.drafts.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 27,
+    "prop_name": "gitlens.views.drafts.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Cloud Patches_ view will display file icons"
+  },
+  {
+    "cfg_idx": 27,
+    "prop_name": "gitlens.views.drafts.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 27,
+    "prop_name": "gitlens.views.drafts.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 27,
+    "prop_name": "gitlens.views.drafts.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Cloud Patches_ view"
+  },
+  {
+    "cfg_idx": 28,
+    "prop_name": "gitlens.views.patchDetails.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Patch Details_ view will display files"
+  },
+  {
+    "cfg_idx": 28,
+    "prop_name": "gitlens.views.patchDetails.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.patchDetails.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 28,
+    "prop_name": "gitlens.views.patchDetails.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 28,
+    "prop_name": "gitlens.views.patchDetails.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 28,
+    "prop_name": "gitlens.views.patchDetails.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Patch Details_ view. Only applies when `#gitlens.views.patchDetails.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 28,
+    "prop_name": "gitlens.views.patchDetails.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Patch Details_ view. Only applies when `#gitlens.views.patchDetails.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 28,
+    "prop_name": "gitlens.views.patchDetails.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Patch Details_ view will display file icons"
+  },
+  {
+    "cfg_idx": 28,
+    "prop_name": "gitlens.views.patchDetails.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 28,
+    "prop_name": "gitlens.views.patchDetails.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 28,
+    "prop_name": "gitlens.views.patchDetails.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Patch Details_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showBranchComparison",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show a comparison of the current branch or the working tree with a user-selected reference (branch, tag, etc) in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Hides the branch comparison"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Compares the current branch with a user-selected reference"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Compares the working tree with a user-selected reference"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showUpstreamStatus",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the upstream status of the current branch for each repository in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.includeWorkingTree",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to include working tree file status for each repository in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.pullRequests.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to query for pull requests associated with branches and commits in the _Cloud Workspaces_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.pullRequests.showForBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with branches in the _Cloud Workspaces_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.pullRequests.showForCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show pull requests (if any) associated with commits in the _Cloud Workspaces_ view. Requires a connection to a supported remote service (e.g. GitHub)"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showCommits",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the commits on the current branch for each repository in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showBranches",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the branches for each repository in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showRemotes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the remotes for each repository in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showStashes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the stashes for each repository in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showTags",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the tags for each repository in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showContributors",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the contributors for each repository in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showWorktrees",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the worktrees for each repository in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.showIncomingActivity",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the experimental incoming activity for each repository in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images instead of commit (or status) icons in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.branches.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Cloud Workspaces_ view will display branches and tags"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays branches and tags as a list"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.branches.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays branches and tags as a tree when names contain slashes `/`"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.branches.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary branch and tag nesting in the _Cloud Workspaces_ view. Only applies when `#gitlens.views.workspaces.branches.layout#` is set to `tree`"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.worktrees.viewAs",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Cloud Workspaces_ view will display worktrees"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.worktrees.viewAs",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays worktree name"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.worktrees.viewAs",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays worktree path"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.worktrees.viewAs",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays worktree relative path"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.files.layout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Cloud Workspaces_ view will display files"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically switches between displaying files as a `tree` or `list` based on the `#gitlens.views.workspaces.files.threshold#` value and the number of files at each nesting level"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays files as a list"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.files.layout",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays files as a tree"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.files.threshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to switch between displaying files as a `tree` or `list` based on the number of files in a nesting level in the _Cloud Workspaces_ view. Only applies when `#gitlens.views.workspaces.files.layout#` is set to `auto`"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.files.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to compact (flatten) unnecessary file nesting in the _Cloud Workspaces_ view. Only applies when `#gitlens.views.workspaces.files.layout#` is set to `tree` or `auto`"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.files.icon",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the _Cloud Workspaces_ view will display file icons"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows the file's status as the icon"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.files.icon",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows the file's type (theme icon) as the icon"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.compact",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the _Cloud Workspaces_ view in a compact display density"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.branches.showStashes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show stashes in the _Commits_ and _Branches_ sections of the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.branches.showBranchComparison",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show a comparison of the branch with a user-selected reference (branch, tag, etc) under each branch in the _Cloud Workspaces_ view"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.branches.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Hides the branch comparison"
+  },
+  {
+    "cfg_idx": 29,
+    "prop_name": "gitlens.views.workspaces.branches.showBranchComparison",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Compares the branch with a user-selected reference"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.density",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the layout density of the _Interactive Rebase Editor_"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.density",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Compact layout with minimal spacing"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.density",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Comfortable layout with more space between rows"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.ordering",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how Git commits are displayed in the _Interactive Rebase Editor_"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.ordering",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows oldest commit first"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.ordering",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows newest commit first"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.openOnPausedRebase",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to automatically open the _Interactive Rebase Editor_ when a paused rebase is detected"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.openOnPausedRebase",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Never automatically open the editor"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.openOnPausedRebase",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Only automatically open the editor when an interactive rebase is detected"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.openOnPausedRebase",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Automatically open the editor when any paused rebase is detected"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.openBehavior",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies which editor group the _Interactive Rebase Editor_ opens in when it is automatically reopened on a paused rebase"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.openBehavior",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Opens the editor beside the commit message editor when a multi-pane layout already exists; otherwise opens in the active editor group"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.openBehavior",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Always opens the editor beside the active editor, creating a new editor group if needed"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.revealLocation",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies where to reveal commits and references"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.revealLocation",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Reveals commits in the _Commit Graph_"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.revealLocation",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Reveals commits in the _Inspect_ view"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.revealBehavior",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies when to automatically reveal commits in the `#gitlens.rebaseEditor.revealLocation#` location"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.revealBehavior",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Automatically reveals commits when double-clicking on a row"
+  },
+  {
+    "cfg_idx": 30,
+    "prop_name": "gitlens.rebaseEditor.revealBehavior",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Automatically reveals commits when selection changes or when double-clicking on a row"
+  },
+  {
+    "cfg_idx": 31,
+    "prop_name": "gitlens.gitCommands.avatars",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show avatar images in quick pick menus when applicable"
+  },
+  {
+    "cfg_idx": 31,
+    "prop_name": "gitlens.gitCommands.sortBy",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how Git commands are sorted in the _Git Command Palette_"
+  },
+  {
+    "cfg_idx": 31,
+    "prop_name": "gitlens.gitCommands.sortBy",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Sorts commands by name"
+  },
+  {
+    "cfg_idx": 31,
+    "prop_name": "gitlens.gitCommands.sortBy",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Sorts commands by last used date"
+  },
+  {
+    "cfg_idx": 31,
+    "prop_name": "gitlens.gitCommands.skipConfirmations",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies which (and when) Git commands will skip the confirmation step, using the format: `git-command-name:(menu|command)`"
+  },
+  {
+    "cfg_idx": 31,
+    "prop_name": "gitlens.gitCommands.closeOnFocusOut",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to dismiss the _Git Command Palette_ when focus is lost (if not, press `ESC` to dismiss)"
+  },
+  {
+    "cfg_idx": 31,
+    "prop_name": "gitlens.gitCommands.search.showResultsInSideBar",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the commit search results directly in the quick pick menu, in the Side Bar, or will be based on the context"
+  },
+  {
+    "cfg_idx": 31,
+    "prop_name": "gitlens.gitCommands.search.matchAll",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to match all or any commit message search patterns"
+  },
+  {
+    "cfg_idx": 31,
+    "prop_name": "gitlens.gitCommands.search.matchCase",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to match commit search patterns with or without regard to casing"
+  },
+  {
+    "cfg_idx": 31,
+    "prop_name": "gitlens.gitCommands.search.matchRegex",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to match commit search patterns using regular expressions"
+  },
+  {
+    "cfg_idx": 32,
+    "prop_name": "gitlens.autolinks",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies autolinks to external resources in commit messages. Use `<num>` as the variable for the reference number"
+  },
+  {
+    "cfg_idx": 32,
+    "prop_name": "gitlens.integrations.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to enable rich integrations with any supported remote services"
+  },
+  {
+    "cfg_idx": 32,
+    "prop_name": "gitlens.cloudIntegrations.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to use cloud-based integrations when authenticating with GitHub"
+  },
+  {
+    "cfg_idx": 32,
+    "prop_name": "gitlens.remotes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies custom remote services to be matched with Git remotes to detect custom domains for built-in remote services or provide support for custom remote services"
+  },
+  {
+    "cfg_idx": 32,
+    "prop_name": "gitlens.partners",
+    "field": "description",
+    "arr_idx": null,
+    "en": "Specifies the configuration of a partner integration"
+  },
+  {
+    "cfg_idx": 32,
+    "prop_name": "gitlens.liveshare.enabled",
+    "field": "description",
+    "arr_idx": null,
+    "en": "Specifies whether to enable integration with Visual Studio Live Share"
+  },
+  {
+    "cfg_idx": 32,
+    "prop_name": "gitlens.liveshare.allowGuestAccess",
+    "field": "description",
+    "arr_idx": null,
+    "en": "Specifies whether to allow guest access to GitLens features when using Visual Studio Live Share"
+  },
+  {
+    "cfg_idx": 33,
+    "prop_name": "gitlens.terminalLinks.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to enable terminal links &mdash; autolinks in the integrated terminal to quickly jump to more details for commits, branches, tags, and more"
+  },
+  {
+    "cfg_idx": 33,
+    "prop_name": "gitlens.terminalLinks.showDetailsView",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the _Commit Details_ view when clicking on a commit link in the integrated terminal"
+  },
+  {
+    "cfg_idx": 33,
+    "prop_name": "gitlens.gitkraken.cli.localPath",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the path to a local GitKraken CLI binary for development. When set in development mode, auto-install and auto-update of the CLI are disabled. _Only applies when running in development mode._"
+  },
+  {
+    "cfg_idx": 33,
+    "prop_name": "gitlens.gitkraken.cli.insiders.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to enable the experimental insiders version of the GitKraken CLI. When not set, it is automatically enabled in pre-release and debugging builds of GitLens"
+  },
+  {
+    "cfg_idx": 33,
+    "prop_name": "gitlens.gitkraken.mcp.autoEnabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to automatically install and enable the GitKraken MCP. This only applies to VS Code 1.101 and later."
+  },
+  {
+    "cfg_idx": 33,
+    "prop_name": "gitlens.terminal.overrideGitEditor",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to use VS Code as Git's `core.editor` for Gitlens terminal commands"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.model",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the AI provider and model to use for GitLens' AI features. Should be formatted as `provider:model` (e.g. `openai:gpt-4o` or `anthropic:claude-3-5-sonnet-latest`), `gitkraken` for GitKraken AI provided models, or `vscode` for models provided by the VS Code extension API (e.g. Copilot)"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.gitkraken.model",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the GitKraken AI provided model to use for GitLens' AI features, formatted as `provider:model`"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.vscode.model",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the VS Code provided model to use for GitLens' AI features, formatted as `provider:model`"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.ollama.url",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the Ollama URL to use for access"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.openai.url",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies a custom URL to use for access to an OpenAI model."
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.azure.url",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies a custom URL to use for access to an Azure OpenAI model. Azure URLs should be in the following format: https://{your-resource-name}.openai.azure.com/openai/deployments/{deployment-id}/chat/completions?api-version={api-version}"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.openaicompatible.url",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies a custom URL to use for access to an OpenAI-compatible model."
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.largePromptWarningThreshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the threshold (in tokens) for when to show a warning about the prompt being too large"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.modelOptions.temperature",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the temperature, a measure of output randomness, to use for the AI model. Higher values result in more randomness, e.g. creativity, while lower values are more deterministic"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.explainChanges.customInstructions",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies custom instructions to provide to the AI provider when generating a summary of changes"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.reviewChanges.customInstructions",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies custom instructions to provide to the AI provider when reviewing a set of changes"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.generateChangelog.customInstructions",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies custom instructions to provide to the AI provider when generating a changelog from a set of changes"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.generateCommitMessage.customInstructions",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies custom instructions to provide to the AI provider when generating a commit message"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.generateCommits.customInstructions",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies custom instructions to provide to the AI provider when generating commits"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to enable GitLens' AI-powered features"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.openInAgent",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Default route for Start Work / Start PR Review when `#showOpenInAgent#` is set: `ask` shows the manual-vs-agent picker; `manual` skips it and continues manually; `agent` skips it and opens the agent picker (or the persisted `#gitlens.ai.defaultAgent#` if set)."
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.openInAgent",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Ask each time (default)"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.openInAgent",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Always continue manually"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.openInAgent",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Always open in an agent"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.defaultAgent",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Default agent for Start Work / Start PR Review when the route is `agent`. Stored as an opaque id (e.g. `ide-chat`, `claude-extension`, `cli:claude-cli`). When the persisted agent is no longer available, falls through to the agent picker."
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.exclude.files",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies glob patterns for files to exclude from AI prompts when generating commit messages, explaining changes, etc. Similar to `files.exclude`, use glob patterns as keys with `true` to exclude or `false` to include."
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.generateStashMessage.customInstructions",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies custom instructions to provide to the AI provider when generating a stash message"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.generateCreateCloudPatch.customInstructions",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies custom instructions to provide to the AI provider when generating a cloud patch title and description"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.generateCreateCodeSuggest.customInstructions",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies custom instructions to provide to the AI provider when generating a code suggest title and description"
+  },
+  {
+    "cfg_idx": 34,
+    "prop_name": "gitlens.ai.generateCreatePullRequest.customInstructions",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies custom instructions to provide to the AI provider when generating a pull request title and description"
+  },
+  {
+    "cfg_idx": 35,
+    "prop_name": "gitlens.defaultDateStyle",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how dates will be displayed by default"
+  },
+  {
+    "cfg_idx": 35,
+    "prop_name": "gitlens.defaultDateStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "e.g. 1 day ago"
+  },
+  {
+    "cfg_idx": 35,
+    "prop_name": "gitlens.defaultDateStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "e.g. July 25th, 2018 7:18pm"
+  },
+  {
+    "cfg_idx": 35,
+    "prop_name": "gitlens.defaultDateFormat",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how absolute dates will be formatted by default. See the [Moment.js docs](https://momentjs.com/docs/#/displaying/format/) for supported formats"
+  },
+  {
+    "cfg_idx": 35,
+    "prop_name": "gitlens.defaultDateLocale",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the locale, a [BCP 47 language tag](https://en.wikipedia.org/wiki/IETF_language_tag#List_of_major_primary_language_subtags), to use for date formatting, defaults to the VS Code locale. Use `system` to follow the current system locale, or choose a specific locale, e.g `en-US` — US English, `en-GB` — British English, `de-DE` — German, `ja-JP` = Japanese, etc."
+  },
+  {
+    "cfg_idx": 35,
+    "prop_name": "gitlens.defaultDateShortFormat",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how short absolute dates will be formatted by default. See the [Moment.js docs](https://momentjs.com/docs/#/displaying/format/) for supported formats"
+  },
+  {
+    "cfg_idx": 35,
+    "prop_name": "gitlens.defaultTimeFormat",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how times will be formatted by default. See the [Moment.js docs](https://momentjs.com/docs/#/displaying/format/) for supported formats"
+  },
+  {
+    "cfg_idx": 35,
+    "prop_name": "gitlens.defaultDateSource",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether commit dates should use the authored or committed date"
+  },
+  {
+    "cfg_idx": 35,
+    "prop_name": "gitlens.defaultDateSource",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Uses the date when the changes were authored (i.e. originally written)"
+  },
+  {
+    "cfg_idx": 35,
+    "prop_name": "gitlens.defaultDateSource",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Uses the date when the changes were committed"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortRepositoriesBy",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how repositories are sorted in quick pick menus and views"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortRepositoriesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Sorts repositories by discovery or workspace order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortRepositoriesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Sorts repositories by last fetched date in descending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortRepositoriesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Sorts repositories by last fetched date in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortRepositoriesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 3,
+    "en": "Sorts repositories by name in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortRepositoriesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 4,
+    "en": "Sorts repositories by name in descending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortBranchesBy",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how branches are sorted in quick pick menus and views"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortBranchesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Sorts branches by the most recent commit date in descending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortBranchesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Sorts branches by the most recent commit date in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortBranchesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Sorts branches by name in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortBranchesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 3,
+    "en": "Sorts branches by name in descending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortTagsBy",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how tags are sorted in quick pick menus and views"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortTagsBy",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Sorts tags by date in descending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortTagsBy",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Sorts tags by date in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortTagsBy",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Sorts tags by name in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortTagsBy",
+    "field": "enumDescriptions",
+    "arr_idx": 3,
+    "en": "Sorts tags by name in descending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortWorktreesBy",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how worktrees are sorted in quick pick menus and views"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortWorktreesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Sorts worktrees by the most recent commit date in descending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortWorktreesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Sorts worktrees by the most recent commit date in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortWorktreesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Sorts worktrees by name in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortWorktreesBy",
+    "field": "enumDescriptions",
+    "arr_idx": 3,
+    "en": "Sorts worktrees by name in descending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortContributorsBy",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how contributors are sorted in quick pick menus and views"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortContributorsBy",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Sorts contributors by commit count in descending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortContributorsBy",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Sorts contributors by commit count in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortContributorsBy",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Sorts contributors by the most recent commit date in descending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortContributorsBy",
+    "field": "enumDescriptions",
+    "arr_idx": 3,
+    "en": "Sorts contributors by the most recent commit date in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortContributorsBy",
+    "field": "enumDescriptions",
+    "arr_idx": 4,
+    "en": "Sorts contributors by name in ascending order"
+  },
+  {
+    "cfg_idx": 36,
+    "prop_name": "gitlens.sortContributorsBy",
+    "field": "enumDescriptions",
+    "arr_idx": 5,
+    "en": "Sorts contributors by name in descending order"
+  },
+  {
+    "cfg_idx": 37,
+    "prop_name": "gitlens.menus",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies which commands will be added to which menus"
+  },
+  {
+    "cfg_idx": 38,
+    "prop_name": "gitlens.keymap",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the keymap to use for GitLens shortcut keys"
+  },
+  {
+    "cfg_idx": 38,
+    "prop_name": "gitlens.keymap",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Adds an alternate set of shortcut keys that start with `Alt` (⌥ on macOS)"
+  },
+  {
+    "cfg_idx": 38,
+    "prop_name": "gitlens.keymap",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Adds a chorded set of shortcut keys that start with `Ctrl+Shift+G` (`⌥⌘G` on macOS)"
+  },
+  {
+    "cfg_idx": 38,
+    "prop_name": "gitlens.keymap",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "No shortcut keys will be added"
+  },
+  {
+    "cfg_idx": 39,
+    "prop_name": "gitlens.mode.statusBar.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to provide the active GitLens mode in the status bar"
+  },
+  {
+    "cfg_idx": 39,
+    "prop_name": "gitlens.mode.statusBar.alignment",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the active GitLens mode alignment in the status bar"
+  },
+  {
+    "cfg_idx": 39,
+    "prop_name": "gitlens.mode.statusBar.alignment",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Aligns to the left"
+  },
+  {
+    "cfg_idx": 39,
+    "prop_name": "gitlens.mode.statusBar.alignment",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Aligns to the right"
+  },
+  {
+    "cfg_idx": 39,
+    "prop_name": "gitlens.mode.active",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the active GitLens mode, if any"
+  },
+  {
+    "cfg_idx": 39,
+    "prop_name": "gitlens.modes",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the user-defined GitLens modes"
+  },
+  {
+    "cfg_idx": 40,
+    "prop_name": "gitlens.gitkraken.activeOrganizationId",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the ID of the user's active GitKraken organization in GitLens"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.detectNestedRepositories",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to attempt to detect nested repositories when opening files"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.telemetry.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to allow GitLens to send product usage telemetry.\n\n_**Note:** For GitLens to send any telemetry BOTH this setting and VS Code telemetry must be enabled. If either one is disabled no telemetry will be sent._"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.messages",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies which messages should be suppressed"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.repositorySearchDepth",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how many folders deep to search for repositories. Defaults to `#git.repositoryScanMaxDepth#`"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.abbreviatedShaLength",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the length of abbreviated commit SHAs"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.abbreviateShaOnCopy",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to copy full or abbreviated commit SHAs to the clipboard. Abbreviates to the length of `#gitlens.advanced.abbreviatedShaLength#`."
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.commitOrdering",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the order by which commits will be shown. If unspecified, commits will be shown in reverse chronological order"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.commitOrdering",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Shows commits in reverse chronological order"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.commitOrdering",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Shows commits in reverse chronological order of the commit timestamp"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.commitOrdering",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Shows commits in reverse chronological order of the author timestamp"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.commitOrdering",
+    "field": "enumDescriptions",
+    "arr_idx": 3,
+    "en": "Shows commits in reverse chronological order of the commit timestamp, but avoids intermixing multiple lines of history"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.blame.ignoreWhitespace",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to ignore whitespace when comparing revisions during blame operations"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.blame.customArguments",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies additional arguments to pass to the `git blame` command"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.similarityThreshold",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the amount (percent) of similarity a deleted and added file pair must have to be considered a rename"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.externalDiffTool",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies an optional external diff tool to use when comparing files. Must be a configured [Git difftool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-difftool)."
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.externalDirectoryDiffTool",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies an optional external diff tool to use when comparing directories. Must be a configured [Git difftool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-difftool)."
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.quickPick.closeOnFocusOut",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to dismiss quick pick menus when focus is lost (if not, press `ESC` to dismiss)"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.skipOnboarding",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to skip onboarding experiences, such as welcome views and walkthroughs. Useful for ephemeral environments like containers or sandboxes"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.git.timeout",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the timeout (in seconds) for Git commands. Use 0 to disable the timeout. Some long-running operations like merge, rebase, and revert always have the timeout disabled"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.git.maxConcurrentProcesses",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the maximum number of background Git processes that can run concurrently. Reduce this value if you experience system slowdowns with large repositories"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.maxListItems",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the maximum number of items to show in a list. Use 0 to specify no maximum"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.maxSearchItems",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the maximum number of items to show in a search. Use 0 to specify no maximum"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.caching.gitPath",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to cache (per-workspace) the path to the Git executable to use for GitLens"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.debug",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies debug mode"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.deepLinks.schemeOverride",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to override the default deep link scheme (vscode://) with the environment value or a specified value"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.resolveSymlinks",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to resolve symbolic links when determining file paths for Git operations"
+  },
+  {
+    "cfg_idx": 41,
+    "prop_name": "gitlens.advanced.commits.delayLoadingFileDetails",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to delay loading commit file details until required. This can improve performance when opening repositories with large histories, but causes more incremental Git calls"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.showWhatsNewAfterUpgrades",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show the What's New notification after upgrading to new feature releases"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultCurrentUserNameStyle",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies how the current git user's name is displayed in blame annotations, hovers, and other UI elements"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultCurrentUserNameStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "Displays \"You\" for the current user"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultCurrentUserNameStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "Displays the user's name from git config"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultCurrentUserNameStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "Displays the user's name followed by \"(you)\", e.g. \"Jane Doe (you)\""
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultGravatarsStyle",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies the style of the gravatar default (fallback) images"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultGravatarsStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 0,
+    "en": "A geometric pattern"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultGravatarsStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 1,
+    "en": "A simple, cartoon-style silhouetted outline of a person (does not vary by email hash)"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultGravatarsStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 2,
+    "en": "A monster with different colors, faces, etc"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultGravatarsStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 3,
+    "en": "8-bit arcade-style pixelated faces"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultGravatarsStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 4,
+    "en": "A robot with different colors, faces, etc"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.defaultGravatarsStyle",
+    "field": "enumDescriptions",
+    "arr_idx": 5,
+    "en": "A face with differing features and backgrounds"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.plusFeatures.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to hide or show features that require a trial or GitLens Pro and are not accessible given the opened repositories and current trial or plan"
+  },
+  {
+    "cfg_idx": 42,
+    "prop_name": "gitlens.virtualRepositories.enabled",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to enable virtual repositories support"
+  },
+  {
+    "cfg_idx": 43,
+    "prop_name": "gitlens.signing.showSignatureBadges",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to show signature verification badges on commits in the Commit Graph and other views"
+  },
+  {
+    "cfg_idx": 43,
+    "prop_name": "gitlens.signing.enableKeyGeneration",
+    "field": "markdownDescription",
+    "arr_idx": null,
+    "en": "Specifies whether to enable the ability to generate signing keys from within GitLens"
+  }
+]

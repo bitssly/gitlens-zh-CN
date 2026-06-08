@@ -1,0 +1,56 @@
+488|38|gitlens.keymap|markdownDescription|None|Specifies the keymap to use for GitLens shortcut keys
+489|38|gitlens.keymap|enumDescriptions|0|Adds an alternate set of shortcut keys that start with `Alt` (⌥ on macOS)
+490|38|gitlens.keymap|enumDescriptions|1|Adds a chorded set of shortcut keys that start with `Ctrl+Shift+G` (`⌥⌘G` on macOS)
+491|38|gitlens.keymap|enumDescriptions|2|No shortcut keys will be added
+492|39|gitlens.mode.statusBar.enabled|markdownDescription|None|Specifies whether to provide the active GitLens mode in the status bar
+493|39|gitlens.mode.statusBar.alignment|markdownDescription|None|Specifies the active GitLens mode alignment in the status bar
+494|39|gitlens.mode.statusBar.alignment|enumDescriptions|0|Aligns to the left
+495|39|gitlens.mode.statusBar.alignment|enumDescriptions|1|Aligns to the right
+496|39|gitlens.mode.active|markdownDescription|None|Specifies the active GitLens mode, if any
+497|39|gitlens.modes|markdownDescription|None|Specifies the user-defined GitLens modes
+498|40|gitlens.gitkraken.activeOrganizationId|markdownDescription|None|Specifies the ID of the user's active GitKraken organization in GitLens
+499|41|gitlens.detectNestedRepositories|markdownDescription|None|Specifies whether to attempt to detect nested repositories when opening files
+500|41|gitlens.telemetry.enabled|markdownDescription|None|Specifies whether to allow GitLens to send product usage telemetry.
+
+_**Note:** For GitLens to send any telemetry BOTH this setting and VS Code telemetry must be enabled. If either one is disabled no telemetry will be sent._
+501|41|gitlens.advanced.messages|markdownDescription|None|Specifies which messages should be suppressed
+502|41|gitlens.advanced.repositorySearchDepth|markdownDescription|None|Specifies how many folders deep to search for repositories. Defaults to `#git.repositoryScanMaxDepth#`
+503|41|gitlens.advanced.abbreviatedShaLength|markdownDescription|None|Specifies the length of abbreviated commit SHAs
+504|41|gitlens.advanced.abbreviateShaOnCopy|markdownDescription|None|Specifies whether to copy full or abbreviated commit SHAs to the clipboard. Abbreviates to the length of `#gitlens.advanced.abbreviatedShaLength#`.
+505|41|gitlens.advanced.commitOrdering|markdownDescription|None|Specifies the order by which commits will be shown. If unspecified, commits will be shown in reverse chronological order
+506|41|gitlens.advanced.commitOrdering|enumDescriptions|0|Shows commits in reverse chronological order
+507|41|gitlens.advanced.commitOrdering|enumDescriptions|1|Shows commits in reverse chronological order of the commit timestamp
+508|41|gitlens.advanced.commitOrdering|enumDescriptions|2|Shows commits in reverse chronological order of the author timestamp
+509|41|gitlens.advanced.commitOrdering|enumDescriptions|3|Shows commits in reverse chronological order of the commit timestamp, but avoids intermixing multiple lines of history
+510|41|gitlens.blame.ignoreWhitespace|markdownDescription|None|Specifies whether to ignore whitespace when comparing revisions during blame operations
+511|41|gitlens.advanced.blame.customArguments|markdownDescription|None|Specifies additional arguments to pass to the `git blame` command
+512|41|gitlens.advanced.similarityThreshold|markdownDescription|None|Specifies the amount (percent) of similarity a deleted and added file pair must have to be considered a rename
+513|41|gitlens.advanced.externalDiffTool|markdownDescription|None|Specifies an optional external diff tool to use when comparing files. Must be a configured [Git difftool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-difftool).
+514|41|gitlens.advanced.externalDirectoryDiffTool|markdownDescription|None|Specifies an optional external diff tool to use when comparing directories. Must be a configured [Git difftool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-difftool).
+515|41|gitlens.advanced.quickPick.closeOnFocusOut|markdownDescription|None|Specifies whether to dismiss quick pick menus when focus is lost (if not, press `ESC` to dismiss)
+516|41|gitlens.advanced.skipOnboarding|markdownDescription|None|Specifies whether to skip onboarding experiences, such as welcome views and walkthroughs. Useful for ephemeral environments like containers or sandboxes
+517|41|gitlens.advanced.git.timeout|markdownDescription|None|Specifies the timeout (in seconds) for Git commands. Use 0 to disable the timeout. Some long-running operations like merge, rebase, and revert always have the timeout disabled
+518|41|gitlens.advanced.git.maxConcurrentProcesses|markdownDescription|None|Specifies the maximum number of background Git processes that can run concurrently. Reduce this value if you experience system slowdowns with large repositories
+519|41|gitlens.advanced.maxListItems|markdownDescription|None|Specifies the maximum number of items to show in a list. Use 0 to specify no maximum
+520|41|gitlens.advanced.maxSearchItems|markdownDescription|None|Specifies the maximum number of items to show in a search. Use 0 to specify no maximum
+521|41|gitlens.advanced.caching.gitPath|markdownDescription|None|Specifies whether to cache (per-workspace) the path to the Git executable to use for GitLens
+522|41|gitlens.debug|markdownDescription|None|Specifies debug mode
+523|41|gitlens.deepLinks.schemeOverride|markdownDescription|None|Specifies whether to override the default deep link scheme (vscode://) with the environment value or a specified value
+524|41|gitlens.advanced.resolveSymlinks|markdownDescription|None|Specifies whether to resolve symbolic links when determining file paths for Git operations
+525|41|gitlens.advanced.commits.delayLoadingFileDetails|markdownDescription|None|Specifies whether to delay loading commit file details until required. This can improve performance when opening repositories with large histories, but causes more incremental Git calls
+526|42|gitlens.showWhatsNewAfterUpgrades|markdownDescription|None|Specifies whether to show the What's New notification after upgrading to new feature releases
+527|42|gitlens.defaultCurrentUserNameStyle|markdownDescription|None|Specifies how the current git user's name is displayed in blame annotations, hovers, and other UI elements
+528|42|gitlens.defaultCurrentUserNameStyle|enumDescriptions|0|Displays "You" for the current user
+529|42|gitlens.defaultCurrentUserNameStyle|enumDescriptions|1|Displays the user's name from git config
+530|42|gitlens.defaultCurrentUserNameStyle|enumDescriptions|2|Displays the user's name followed by "(you)", e.g. "Jane Doe (you)"
+531|42|gitlens.defaultGravatarsStyle|markdownDescription|None|Specifies the style of the gravatar default (fallback) images
+532|42|gitlens.defaultGravatarsStyle|enumDescriptions|0|A geometric pattern
+533|42|gitlens.defaultGravatarsStyle|enumDescriptions|1|A simple, cartoon-style silhouetted outline of a person (does not vary by email hash)
+534|42|gitlens.defaultGravatarsStyle|enumDescriptions|2|A monster with different colors, faces, etc
+535|42|gitlens.defaultGravatarsStyle|enumDescriptions|3|8-bit arcade-style pixelated faces
+536|42|gitlens.defaultGravatarsStyle|enumDescriptions|4|A robot with different colors, faces, etc
+537|42|gitlens.defaultGravatarsStyle|enumDescriptions|5|A face with differing features and backgrounds
+538|42|gitlens.plusFeatures.enabled|markdownDescription|None|Specifies whether to hide or show features that require a trial or GitLens Pro and are not accessible given the opened repositories and current trial or plan
+539|42|gitlens.virtualRepositories.enabled|markdownDescription|None|Specifies whether to enable virtual repositories support
+540|43|gitlens.signing.showSignatureBadges|markdownDescription|None|Specifies whether to show signature verification badges on commits in the Commit Graph and other views
+541|43|gitlens.signing.enableKeyGeneration|markdownDescription|None|Specifies whether to enable the ability to generate signing keys from within GitLens
