@@ -1,0 +1,61 @@
+[FAIL] tooltip pattern: tooltip:刷新 NOT FOUND
+[FAIL] tooltip pattern: tooltip:打开更改 NOT FOUND
+[OK] message: ...URL 已复制到剪贴板... in context
+[OK] error class: ...无法合并... in context
+[OK] label: ...提交图... in context
+[OK] status: ...解决冲突... in context
+
+Total Chinese characters in file: 2355
+Unique Chinese quoted strings: 234
+
+  为分支创建工作树...
+  主页
+  了解 GitLens Pro
+  了解更多
+  了解起降台
+  交互式变基
+  从一个或多个远程仓库拉取更改
+  从不
+  从远程仓库拉取更改并集成到当前分支
+  仓库
+  使用当前窗口
+  使用正则表达式匹配
+  使用自然语言搜索
+  克隆仓库...
+  全字匹配
+  全部匹配
+  全部完成！去度假吧
+  分支
+  分支发布后才能拉取
+  切换到分支
+  切换到本地分支
+  创建
+  创建并切换到分支
+  创建新分支
+  创建新工作树
+  创建新标签
+  删除
+  删除本地和远程分支
+  刷新
+  剪贴板中未找到有效的补丁
+  加载中...
+  加载更多
+  区分大小写
+  即 grep，搜索提交
+  即 log，显示提交历史
+  取消
+  取消上游设置
+  取消固定
+  取消搜索
+  取消稍后提醒
+  合并...
+  启用
+  固定
+  在 Azure DevOps 中打开
+  在 Bitbucket 中打开
+  在 Git 命令面板中打开
+  在 GitHub 中打开
+  在 GitLab 中打开
+  在 Jira 中打开
+  在 gitkraken.dev 中打开
+  ... and 184 more

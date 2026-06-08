@@ -1,0 +1,13 @@
+Replacements: 486
+Matched entries: 258 / 403
+File size: 2,639,041 (+2,169)
+
+[OK] Unable to push -> 无法推送
+[OK] Unable to pull -> 无法拉取并合并
+[MISS] Ready to Merge -> 可以合并
+[OK] Loading... -> 加载中...
+[OK] Working Tree -> 工作区
+[OK] File History -> 文件历史
+[OK] Search Commits -> 搜索提交
+
+Total Chinese chars: 0

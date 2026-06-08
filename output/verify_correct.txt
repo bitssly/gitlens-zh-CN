@@ -1,0 +1,9 @@
+[OK] "Unable to push" -> "无法推送" (2x)
+[OK] "Unable to pull" -> "无法拉取并合并" (3x)
+[OK] "Ready to Merge" -> "可合并" (4x)
+[OK] "Loading..." -> "加载中..." (5x)
+[OK] "Working Tree" -> "工作区" (22x)
+[OK] "File History" -> "文件历史" (6x)
+[GONE] "Search Commits" not found at all
+[OK] "Commit Graph" -> "提交图" (3x)
+[OK] "No changes to stash." -> "没有可暂存的更改。" (1x)

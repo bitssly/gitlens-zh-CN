@@ -1,0 +1,1623 @@
+{
+	"A commit message is being generated.": [
+		"composer.js"
+	],
+	"AGENT ACTIVITY": [
+		"graph.js"
+	],
+	"AI Code Review": [
+		"graph.js"
+	],
+	"AI Features": [
+		"home.js"
+	],
+	"AI features are disabled": [
+		"composer.js"
+	],
+	"AI features are disabled by your GitKraken admin": [
+		"composer.js"
+	],
+	"AI features are disabled in your settings": [
+		"composer.js"
+	],
+	"Active Work scope": [
+		"home.js"
+	],
+	"Add to Search": [
+		"graph.js"
+	],
+	"Added (Current)": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js",
+		"rebase.js"
+	],
+	"Added (Incoming)": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js",
+		"rebase.js"
+	],
+	"Additional Actions": [
+		"home.js"
+	],
+	"Agent Activity Treemap": [
+		"graph.js"
+	],
+	"Agent Branches": [
+		"graph.js"
+	],
+	"Agent Kanban": [
+		"graph.js"
+	],
+	"Agent sessions": [
+		"graph.js"
+	],
+	"All Branches": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Always Allow": [
+		"graph.js"
+	],
+	"Amend Commit on": [
+		"graph.js"
+	],
+	"An error occurred during composition.": [
+		"graph.js"
+	],
+	"An error occurred during review.": [
+		"graph.js"
+	],
+	"Analyzing changes...": [
+		"graph.js"
+	],
+	"Apply Patch Options...": [
+		"patchDetails.js"
+	],
+	"Apply Stash": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Approve Plan": [
+		"graph.js",
+		"home.js"
+	],
+	"Associate Issue with Branch": [
+		"graph.js",
+		"home.js"
+	],
+	"Auto-Compose Commits": [
+		"composer.js"
+	],
+	"Auto-Compose Commits is disabled": [
+		"composer.js"
+	],
+	"Auto-composition Summary:": [
+		"composer.js"
+	],
+	"Awaiting input": [
+		"graph.js",
+		"home.js"
+	],
+	"Awaiting permission:": [
+		"graph.js",
+		"home.js"
+	],
+	"Awaiting your answer": [
+		"graph.js",
+		"home.js"
+	],
+	"Back to Repository": [
+		"graph.js"
+	],
+	"Base commit": [
+		"rebase.js"
+	],
+	"Binary file": [
+		"composer.js"
+	],
+	"Binary files": [
+		"composer.js"
+	],
+	"Branches to update": [
+		"rebase.js"
+	],
+	"COMMIT MESSAGE": [
+		"graph.js"
+	],
+	"Called introspectSources without a Computed or Watcher argument": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Case-sensitive": [
+		"settings.js"
+	],
+	"Change Merge Target": [
+		"graph.js",
+		"home.js"
+	],
+	"Change Recent Timeframe": [
+		"graph.js",
+		"home.js"
+	],
+	"Change Reference...": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Change time range": [
+		"graph.js"
+	],
+	"Changes Requested": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Changes to Include": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Changes to Suggest": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"ChangesRequested": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Check at least one change": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Checking for conflicts...": [
+		"rebase.js"
+	],
+	"Checking remaining commits for conflicts...": [
+		"rebase.js"
+	],
+	"Choose AI Model": [
+		"composer.js"
+	],
+	"Choose File or Folder to Visualize...": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Choose a Reference": [
+		"graph.js"
+	],
+	"Choose a Reference to Compare": [
+		"graph.js"
+	],
+	"Choose an AI model": [
+		"graph.js"
+	],
+	"Clear Commit Filter": [
+		"graph.js"
+	],
+	"Clear Working Changes Filter": [
+		"graph.js"
+	],
+	"Close Suggestion for PR": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Close Visualizations": [
+		"graph.js"
+	],
+	"Cloud Patch": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Cloud Patches": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Code Suggestion": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Code Suggestions": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js"
+	],
+	"Code suggestions have been made on this pull request": [
+		"home.js"
+	],
+	"Collapse All": [
+		"composer.js",
+		"graph.js"
+	],
+	"Columns settings": [
+		"graph.js"
+	],
+	"Combined commit": [
+		"composer.js"
+	],
+	"Commit Composer Feedback": [
+		"composer.js"
+	],
+	"Commit details": [
+		"graph.js"
+	],
+	"Commit history is unavailable for virtual repositories": [
+		"graph.js"
+	],
+	"Commit the changes in this draft.": [
+		"composer.js"
+	],
+	"Commit via SCM": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Commits are being generated.": [
+		"composer.js"
+	],
+	"Committing...": [
+		"composer.js"
+	],
+	"Compare Pull Request": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Compare references": [
+		"graph.js"
+	],
+	"Comparing References": [
+		"graph.js"
+	],
+	"Comparing commits": [
+		"graph.js"
+	],
+	"Composer actions": [
+		"composer.js"
+	],
+	"Configure autolinks to linkify external references, like Jira or Zendesk tickets, in commit messages.": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Connect More Agents": [
+		"graph.js",
+		"home.js"
+	],
+	"Connection closed": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js",
+		"timeline.js"
+	],
+	"Connection reset": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js",
+		"timeline.js"
+	],
+	"Continue working on your draft": [
+		"home.js"
+	],
+	"Contributors": [
+		"graph.js"
+	],
+	"Copy Finding": [
+		"graph.js"
+	],
+	"Copy Focus Area Findings": [
+		"graph.js"
+	],
+	"Copy Message": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Copy Plan Path": [
+		"graph.js",
+		"home.js"
+	],
+	"Copy Remote URL": [
+		"graph.js"
+	],
+	"Copy Review Findings": [
+		"graph.js"
+	],
+	"Copy Stash Number": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Create a Pull Request with AI (Preview)": [
+		"home.js"
+	],
+	"Creating Commits": [
+		"composer.js"
+	],
+	"Critical Issue": [
+		"graph.js"
+	],
+	"Current Branch": [
+		"graph.js",
+		"home.js"
+	],
+	"Delete Branch": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Delete Worktree": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Deleted (Current)": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js",
+		"rebase.js"
+	],
+	"Deleted (Incoming)": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js",
+		"rebase.js"
+	],
+	"Description (optional)": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Detecting Conflicts": [
+		"rebase.js"
+	],
+	"DetermineComponentFrameRoot": [
+		"graph.js"
+	],
+	"Diff too big to be displayed": [
+		"composer.js"
+	],
+	"Draft Commits": [
+		"composer.js"
+	],
+	"Draft commit (add a commit message)": [
+		"composer.js"
+	],
+	"Draft commits and messages will be committed when you're finished.": [
+		"composer.js"
+	],
+	"Draft pull request": [
+		"graph.js",
+		"home.js"
+	],
+	"Drop file here or click to browse": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Drop files here or click to browse": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"End of selected scope": [
+		"graph.js"
+	],
+	"Enter a search value": [
+		"graph.js"
+	],
+	"Enter commit message...": [
+		"composer.js"
+	],
+	"Enter fullscreen": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Error: Commit message is required.": [
+		"composer.js"
+	],
+	"Exclude this commit": [
+		"graph.js"
+	],
+	"Excluded by AI ignore rules": [
+		"graph.js"
+	],
+	"Exit fullscreen": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Experimental": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Experimental feature": [
+		"graph.js"
+	],
+	"Explain Branch Changes (Preview)": [
+		"home.js"
+	],
+	"Explain Changes": [
+		"graph.js"
+	],
+	"Explain Working Changes (Preview)": [
+		"home.js"
+	],
+	"Failed Checks": [
+		"home.js"
+	],
+	"Failed to fetch initial state": [
+		"commitDetails.js"
+	],
+	"Failed to fetch preferences": [
+		"commitDetails.js"
+	],
+	"Favorited Branches": [
+		"graph.js"
+	],
+	"File Changes": [
+		"graph.js"
+	],
+	"File differences between the latest commits of both branches": [
+		"graph.js"
+	],
+	"File tree treemap": [
+		"graph.js"
+	],
+	"Files Changed": [
+		"graph.js"
+	],
+	"Files changed": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Filter Commits": [
+		"graph.js"
+	],
+	"Filter Results": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js",
+		"rebase.js"
+	],
+	"Filter branches...": [
+		"graph.js"
+	],
+	"Filter by author to see contributions from specific team members": [
+		"graph.js"
+	],
+	"Filter by date range using absolute dates or relative times": [
+		"graph.js"
+	],
+	"Filter commits to only show commits pointed to by branches or tags": [
+		"graph.js"
+	],
+	"Filter conflicted files...": [
+		"rebase.js"
+	],
+	"Filter files...": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Filter to a specific branch or tag (solo), or compare ranges to see unique commits": [
+		"graph.js"
+	],
+	"Filter to only show working tree changes (current and other worktrees)": [
+		"graph.js"
+	],
+	"Filter to only show your own commits": [
+		"graph.js"
+	],
+	"Fingerprint": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Focus on security and error handling": [
+		"graph.js"
+	],
+	"Follows HEAD": [
+		"graph.js"
+	],
+	"FormControl": [
+		"graph.js"
+	],
+	"Generate Changelog": [
+		"graph.js"
+	],
+	"Generate Changelog (Preview)": [
+		"graph.js"
+	],
+	"Generate Commit Message": [
+		"graph.js"
+	],
+	"Generate Message": [
+		"composer.js"
+	],
+	"Generate Title and Description...": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Generate commit message with AI": [
+		"composer.js"
+	],
+	"Generated Commits": [
+		"composer.js"
+	],
+	"Generating Commit Message": [
+		"composer.js"
+	],
+	"Generating Commits": [
+		"composer.js"
+	],
+	"Generating Commits...": [
+		"composer.js"
+	],
+	"Generating...": [
+		"composer.js"
+	],
+	"Getting Started": [
+		"home.js"
+	],
+	"GitKraken MCP Bundled with GitLens": [
+		"graph.js",
+		"home.js"
+	],
+	"Graph Commit Search": [
+		"graph.js",
+		"home.js",
+		"rebase.js",
+		"timeline.js"
+	],
+	"Graph Minimap": [
+		"graph.js",
+		"home.js",
+		"rebase.js",
+		"timeline.js"
+	],
+	"Group by feature, keep perf changes separate": [
+		"graph.js"
+	],
+	"Hide Details Panel": [
+		"graph.js"
+	],
+	"Hide Minimap": [
+		"graph.js"
+	],
+	"Hide Remote-only Branches": [
+		"graph.js"
+	],
+	"Hide Search": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Hide Side Bar": [
+		"graph.js"
+	],
+	"Hide Stashes": [
+		"graph.js"
+	],
+	"Hide password": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Hold Shift to Compare with Working Tree": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Home: Failed to fetch initial context": [
+		"home.js"
+	],
+	"Home: Failed to fetch launchpad summary": [
+		"home.js"
+	],
+	"Home: Failed to refetch repositories state": [
+		"home.js"
+	],
+	"Home: Failed to restore overview filter": [
+		"home.js"
+	],
+	"Home: Failed to restore overview repository path": [
+		"home.js"
+	],
+	"Include additional instructions": [
+		"composer.js"
+	],
+	"Include this commit": [
+		"graph.js"
+	],
+	"Index has changed. You must reload to commit.": [
+		"composer.js"
+	],
+	"Inline Blame": [
+		"home.js"
+	],
+	"Input required": [
+		"graph.js",
+		"home.js"
+	],
+	"Install Claude Code Hooks": [
+		"graph.js",
+		"home.js"
+	],
+	"Install Claude Hooks": [
+		"graph.js",
+		"home.js"
+	],
+	"Install GitKraken MCP": [
+		"graph.js",
+		"home.js"
+	],
+	"Install Hooks": [
+		"graph.js",
+		"home.js"
+	],
+	"Invalid Signature": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Jump to Branch": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Jump to Commit": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Jump to Working Changes": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Jump to a specific commit using its SHA": [
+		"graph.js"
+	],
+	"Learn more about GitKraken security": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Let AI intelligently reorganize these commits with clearer messages and better logical grouping.": [
+		"rebase.js"
+	],
+	"Lines changed": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Load Associated Issues and Pull Requests": [
+		"graph.js"
+	],
+	"Load More Commits": [
+		"graph.js"
+	],
+	"Load all branches and tags": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Load more commits": [
+		"graph.js"
+	],
+	"Load more commits...": [
+		"graph.js"
+	],
+	"Load more results...": [
+		"graph.js"
+	],
+	"Loading Issues and Pull Requests...": [
+		"graph.js"
+	],
+	"Loading account status": [
+		"home.js"
+	],
+	"Loading branches and tags": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Loading older history": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Local Branch": [
+		"graph.js"
+	],
+	"MCP Features": [
+		"home.js"
+	],
+	"Manage Account": [
+		"home.js"
+	],
+	"Manage Integrations": [
+		"home.js"
+	],
+	"Maximum value": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Minimap Options": [
+		"graph.js"
+	],
+	"Minimum value": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Missing Key": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"More Options": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"More actions": [
+		"graph.js",
+		"home.js"
+	],
+	"Move Beside": [
+		"graph.js"
+	],
+	"Natural Language Search (AI Preview)": [
+		"graph.js"
+	],
+	"Needs Your Review": [
+		"graph.js",
+		"home.js"
+	],
+	"New commits will be added to your current branch.": [
+		"composer.js"
+	],
+	"No Additional Issues or Pull Requests Found": [
+		"graph.js"
+	],
+	"No Autolinks Found": [
+		"graph.js"
+	],
+	"No Uncommitted Changes": [
+		"graph.js"
+	],
+	"No autolinks found": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"No commits to compose": [
+		"graph.js"
+	],
+	"No commits to review": [
+		"graph.js"
+	],
+	"No commits yet": [
+		"composer.js"
+	],
+	"No conflicting or changed files": [
+		"graph.js"
+	],
+	"No files changed": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js"
+	],
+	"No matching files": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"No operation": [
+		"rebase.js"
+	],
+	"No options selected": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"No recent activity": [
+		"graph.js"
+	],
+	"No results found": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js",
+		"rebase.js"
+	],
+	"No working changes": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"No working tree changes": [
+		"home.js"
+	],
+	"Not supported": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Nothing to Copy": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js",
+		"rebase.js",
+		"timeline.js"
+	],
+	"Open All Changes": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Open Branch in Commit Graph": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Open Commit in Commit Graph": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Open Commit on Remote": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Open Git Auto-fetch Settings": [
+		"graph.js"
+	],
+	"Open GitLens Home View": [
+		"graph.js"
+	],
+	"Open Pull Request Changes": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Open Pull Request Details": [
+		"home.js"
+	],
+	"Open Pull Request on Remote": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Open SCM view": [
+		"commitDetails.js"
+	],
+	"Open Worktree": [
+		"graph.js",
+		"home.js"
+	],
+	"Open Worktree in New Window": [
+		"graph.js",
+		"home.js"
+	],
+	"Open Worktree...": [
+		"graph.js"
+	],
+	"Open in Branches View": [
+		"home.js"
+	],
+	"Open in Inspect View": [
+		"rebase.js"
+	],
+	"Open in Rebase Editor": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Open in Worktrees View": [
+		"home.js"
+	],
+	"Optional guidance for the AI explanation...": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Pause animation": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Pending rebase of": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js"
+	],
+	"Picture in picture": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Pin Side Bar": [
+		"graph.js"
+	],
+	"Pinned Branch": [
+		"graph.js"
+	],
+	"Plan ready for review": [
+		"graph.js",
+		"home.js"
+	],
+	"Plan ready:": [
+		"graph.js",
+		"home.js"
+	],
+	"Play animation": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Playback speed": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Please select changes to apply": [
+		"patchDetails.js"
+	],
+	"Potential Conflicts with Merge Target": [
+		"graph.js",
+		"home.js"
+	],
+	"Preview feature": [
+		"graph.js",
+		"home.js",
+		"settings.js",
+		"timeline.js"
+	],
+	"Previous slide": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Previous video": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Pro feature": [
+		"graph.js",
+		"home.js",
+		"settings.js",
+		"timeline.js"
+	],
+	"Pro features that do not require an account": [
+		"graph.js",
+		"home.js",
+		"settings.js",
+		"timeline.js"
+	],
+	"Publish Branch": [
+		"graph.js",
+		"home.js"
+	],
+	"Pull request": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Re-enable MCP": [
+		"home.js"
+	],
+	"Ready to merge": [
+		"home.js"
+	],
+	"Recompose Commits": [
+		"composer.js"
+	],
+	"Recompose...": [
+		"rebase.js"
+	],
+	"Redo last undone action": [
+		"composer.js"
+	],
+	"Refresh Comparison": [
+		"graph.js"
+	],
+	"Refresh Launchpad": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Regenerate Message": [
+		"composer.js"
+	],
+	"Reinstall GitKraken MCP": [
+		"home.js"
+	],
+	"Reject Plan": [
+		"graph.js",
+		"home.js"
+	],
+	"Remote Branch": [
+		"graph.js"
+	],
+	"Remove Branch Association": [
+		"graph.js"
+	],
+	"Requires Follow-up": [
+		"graph.js",
+		"home.js"
+	],
+	"Reset Filters": [
+		"graph.js"
+	],
+	"Reset to initial state": [
+		"composer.js"
+	],
+	"Resize Panel": [
+		"graph.js"
+	],
+	"Resume Plan": [
+		"graph.js"
+	],
+	"Resume Review": [
+		"graph.js"
+	],
+	"Resume Search": [
+		"graph.js"
+	],
+	"Review Files": [
+		"graph.js"
+	],
+	"Review Required": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"ReviewRequired": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Reviewers Commented": [
+		"home.js"
+	],
+	"Reviewers have commented on this pull request": [
+		"home.js"
+	],
+	"Reviewers requested changes before this can be merged": [
+		"home.js"
+	],
+	"Run 'Review Files' first": [
+		"graph.js"
+	],
+	"Scroll to end": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Scroll to start": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Scrollable region": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Search by Folder": [
+		"graph.js"
+	],
+	"Search code changes to find when specific functions or patterns were modified": [
+		"graph.js"
+	],
+	"Search commit messages to quickly find specific changes or features": [
+		"graph.js"
+	],
+	"Search files...": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Search for Commit": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Search navigation": [
+		"graph.js"
+	],
+	"Select AI Model": [
+		"composer.js"
+	],
+	"Select a branch or tag to filter by": [
+		"graph.js"
+	],
+	"Select a color from the screen": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Select a commit above to see the file changes": [
+		"graph.js"
+	],
+	"Select a folder to filter by": [
+		"graph.js"
+	],
+	"Select one or more contributors to filter by": [
+		"graph.js"
+	],
+	"Select one or more files to filter by": [
+		"graph.js"
+	],
+	"Select two refs to compare (e.g. main..feature)": [
+		"graph.js"
+	],
+	"Send Focus Area to Agent": [
+		"graph.js"
+	],
+	"Send to Agent": [
+		"graph.js"
+	],
+	"Share Patch": [
+		"patchDetails.js"
+	],
+	"Share as Cloud Patch": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js"
+	],
+	"Show Account view": [
+		"graph.js",
+		"home.js",
+		"settings.js",
+		"timeline.js"
+	],
+	"Show Agent Kanban": [
+		"graph.js"
+	],
+	"Show Commit Graph": [
+		"graph.js"
+	],
+	"Show Conflicts": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js",
+		"rebase.js"
+	],
+	"Show Details Panel": [
+		"graph.js"
+	],
+	"Show Minimap": [
+		"graph.js"
+	],
+	"Show Remote-only Branches": [
+		"graph.js"
+	],
+	"Show Search": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Show Side Bar": [
+		"graph.js"
+	],
+	"Show Stashes": [
+		"graph.js"
+	],
+	"Show Visualizations": [
+		"graph.js"
+	],
+	"Show all branches and tags": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Show password": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Showing Agent Branches Only": [
+		"graph.js"
+	],
+	"Showing All Branches": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Showing All Branches with Filters Applied": [
+		"graph.js"
+	],
+	"Showing Current Branch Only": [
+		"graph.js"
+	],
+	"Showing Favorited Branches Only": [
+		"graph.js"
+	],
+	"Showing Newest Commits First": [
+		"rebase.js"
+	],
+	"Showing Oldest Commits First": [
+		"rebase.js"
+	],
+	"Showing Only Commit Changes": [
+		"graph.js"
+	],
+	"Showing Only Working Changes": [
+		"graph.js"
+	],
+	"Showing Smart Branches Only": [
+		"graph.js"
+	],
+	"Signature could not be verified": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Signature verification failed": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Slice by Author": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Slice by Branch": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Smart Branches": [
+		"graph.js"
+	],
+	"Specific Branch": [
+		"graph.js"
+	],
+	"Stage Current for All Conflicts": [
+		"commitDetails.js",
+		"graph.js",
+		"rebase.js"
+	],
+	"Stage Incoming for All Conflicts": [
+		"commitDetails.js",
+		"graph.js",
+		"rebase.js"
+	],
+	"Start Rebase (Conflicts Detected)": [
+		"rebase.js"
+	],
+	"Start Rebase (No Conflicts Detected)": [
+		"rebase.js"
+	],
+	"Start Review": [
+		"graph.js"
+	],
+	"Start of selected scope": [
+		"graph.js"
+	],
+	"Stash Changes": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Stash Changes...": [
+		"graph.js"
+	],
+	"Stop Searching": [
+		"graph.js"
+	],
+	"Suggest Changes for PR": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Swap Direction": [
+		"graph.js"
+	],
+	"Swap comparison direction": [
+		"graph.js"
+	],
+	"Switch Active Organization": [
+		"home.js"
+	],
+	"Switch Default Agent": [
+		"home.js"
+	],
+	"Switch to List Layout": [
+		"rebase.js"
+	],
+	"Switch to Tree Layout": [
+		"rebase.js"
+	],
+	"Synchronize Status": [
+		"home.js"
+	],
+	"The branch will be updated with the new commit structure.": [
+		"composer.js"
+	],
+	"The rebase will start automatically when you close this tab.": [
+		"rebase.js"
+	],
+	"This commit is not reachable from any branch or tag": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"This commit will cause conflicts": [
+		"rebase.js"
+	],
+	"This is an experimental feature": [
+		"graph.js"
+	],
+	"Timeline Options": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Title (required)": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Title is required": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js"
+	],
+	"Toggle color format": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Track file changes across history (supports glob patterns)": [
+		"graph.js"
+	],
+	"TransitionWrapper": [
+		"graph.js"
+	],
+	"Treemap zoom path": [
+		"graph.js"
+	],
+	"Unable to Copy": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js",
+		"rebase.js",
+		"timeline.js"
+	],
+	"Unable to load branch reachability. Click to Retry": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Undo last action": [
+		"composer.js"
+	],
+	"Unidentified": [
+		"graph.js"
+	],
+	"Uninstall Claude Hooks": [
+		"home.js"
+	],
+	"Unknown Model": [
+		"composer.js"
+	],
+	"Unlock this feature for privately hosted repos with ": [
+		"graph.js",
+		"home.js",
+		"rebase.js",
+		"timeline.js"
+	],
+	"Unlock this feature with ": [
+		"graph.js",
+		"home.js",
+		"rebase.js",
+		"timeline.js"
+	],
+	"Unpin Side Bar": [
+		"graph.js"
+	],
+	"Unverified Signer": [
+		"commitDetails.js",
+		"graph.js"
+	],
+	"Up to Date with Merge Target": [
+		"graph.js",
+		"home.js"
+	],
+	"Updated but Unmerged": [
+		"commitDetails.js",
+		"graph.js",
+		"patchDetails.js",
+		"rebase.js"
+	],
+	"Upgrade to Advanced": [
+		"home.js"
+	],
+	"Use Regular Expression": [
+		"graph.js"
+	],
+	"Video player": [
+		"commitDetails.js",
+		"composer.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js",
+		"settings.js",
+		"timeline.js",
+		"welcome.js"
+	],
+	"Visual History scope": [
+		"graph.js",
+		"timeline.js"
+	],
+	"Visualization": [
+		"graph.js"
+	],
+	"Visualize Branch History": [
+		"home.js"
+	],
+	"Visualize Code History": [
+		"home.js"
+	],
+	"Visualize Repo History": [
+		"home.js"
+	],
+	"Visualize Repository History": [
+		"graph.js",
+		"timeline.js"
+	],
+	"WIP changes": [
+		"graph.js"
+	],
+	"Waiting for reviewers to approve this pull request": [
+		"home.js"
+	],
+	"Warning (Non-Critical)": [
+		"graph.js"
+	],
+	"Will pause the rebase here": [
+		"rebase.js"
+	],
+	"Work in progress": [
+		"graph.js"
+	],
+	"Working Directory": [
+		"home.js"
+	],
+	"Working changes details": [
+		"graph.js"
+	],
+	"Working directory has changed": [
+		"composer.js"
+	],
+	"Working directory has changed. You must reload to commit.": [
+		"composer.js"
+	],
+	"Working tree has changes": [
+		"commitDetails.js",
+		"graph.js",
+		"home.js",
+		"patchDetails.js",
+		"rebase.js"
+	],
+	"You need to assign reviewers": [
+		"home.js"
+	],
+	"You need to resolve merge conflicts": [
+		"home.js"
+	],
+	"You need to resolve the failing checks": [
+		"home.js"
+	],
+	"Zoom to Scope": [
+		"graph.js"
+	]
+}

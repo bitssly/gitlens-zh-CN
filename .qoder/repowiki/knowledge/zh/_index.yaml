@@ -1,0 +1,38 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: master
+exported_at: "2026-06-08T09:48:15Z"
+modules:
+    "":
+        dir_name: GitLens VS Code 扩展中文化工具
+        title: GitLens VS Code 扩展中文化工具
+        scope:
+            - .gitignore
+            - README.md
+            - install.bat
+            - install.sh
+            - restore.bat
+            - translate.py
+            - data/
+            - scripts/
+            - LICENSE
+            - data\contributions-zh.json
+            - data\package-v17-zh.json
+            - data\package-v18-en.json
+            - data\package-v18-zh-partial.json
+            - scripts\apply_config_descriptions.py
+            - scripts\apply_translations.py
+            - scripts\apply_visible_translations.py
+            - scripts\extract_config_descriptions.py
+            - scripts\extract_visible_fields.py
+            - scripts\fix_command_titles.py
+            - scripts\list_configs.py
+            - scripts\list_untrans.py
+            - scripts\list_untrans3.py
+            - scripts\test_roundtrip.py
+            - scripts\verify_apply.py
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
