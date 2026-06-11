@@ -1,0 +1,8 @@
+{
+	"_comment": "v18.1.0 新增翻译 - 2026-06-11",
+	"categories[0]": "其他",
+	"categories[1]": "SCM 提供商",
+	"contributes.commands[874].title": "回退提交...",
+	"contributes.configurationDefaults.[python].gitlens.codeLens.symbolScopes[0]": "!Module",
+	"contributes.resourceLabelFormatters[0].formatting.label": "${path} (${query.ref})"
+}

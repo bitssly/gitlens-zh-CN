@@ -1,7 +1,7 @@
 # GitLens 中文翻译
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitLens](https://img.shields.io/badge/GitLens-v18.0.0-blue.svg)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+[![GitLens](https://img.shields.io/badge/GitLens-v18.1.0-blue.svg)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 [![Python](https://img.shields.io/badge/Python-3.7+-green.svg)](https://www.python.org/)
 
 > GitLens VS Code 扩展的中文（简体）非官方翻译项目
@@ -17,7 +17,8 @@
 
 ## 支持版本
 
-- **GitLens v18.0.0**（当前）
+- **GitLens v18.1.0**（当前）
+- **GitLens v18.0.0**（兼容）
 - 参考翻译来源：[1twol/gitlens-chinese](https://github.com/1twol/gitlens-chinese) (v17.0.3)
 
 ## 翻译覆盖率
@@ -35,7 +36,7 @@
 ## 环境要求
 
 - **Python 3.7+**
-- **GitLens v18.0.0**（已安装在 VS Code / Cursor 中）
+- **GitLens v18.1.0**（已安装在 VS Code / Cursor 中）
 
 ## 快速开始
 
