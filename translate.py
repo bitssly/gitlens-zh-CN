@@ -20,7 +20,7 @@ from pathlib import Path
 from datetime import datetime
 
 # 配置
-GITLENS_VERSION = "18.0.0"
+GITLENS_VERSION = "18.1.0"
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
 OUTPUT_DIR = SCRIPT_DIR / "output"
