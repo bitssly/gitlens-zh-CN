@@ -16,11 +16,12 @@ import os
 import re
 import shutil
 import tempfile
+import copy
 from pathlib import Path
 from datetime import datetime
 
 # 配置
-GITLENS_VERSION = "18.1.0"
+GITLENS_VERSION = "18.0.0"
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
 OUTPUT_DIR = SCRIPT_DIR / "output"
@@ -31,12 +32,61 @@ def get_gitlens_dir():
     home = Path.home()
     extensions_dir = home / '.vscode' / 'extensions'
 
-    # 查找 GitLens 目录
-    for d in extensions_dir.iterdir():
-        if d.name.startswith('eamodio.gitlens-'):
-            return d
+    if not extensions_dir.is_dir():
+        return None
+    candidates = sorted(d for d in extensions_dir.iterdir()
+                        if d.is_dir() and d.name.startswith('eamodio.gitlens-'))
+    if len(candidates) > 1:
+        raise ValueError("检测到多个 GitLens 版本；请先保留唯一目标版本，再安装或恢复")
+    return candidates[0] if candidates else None
 
-    return None
+
+def validate_package(package):
+    # The paired translation source is 18.0.0; 18.1.0 has no paired translation.
+    if (package.get('publisher'), package.get('name'), package.get('version')) != ('eamodio', 'gitlens', '18.0.0'):
+        raise ValueError("只支持已配对验证的 eamodio.gitlens 18.0.0，拒绝修改其他版本")
+
+
+def atomic_write(path, payload):
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=path.parent, prefix=f'.{path.name}.',
+                                         suffix='.tmp', delete=False) as handle:
+            temporary = Path(handle.name)
+            handle.write(payload)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+
+
+def translated_package(current, original, translated):
+    """Change only translated display leaves with a matching English source."""
+    validate_package(current)
+    validate_package(original)
+    validate_package(translated)
+    result = copy.deepcopy(current)
+
+    def walk(target, source, localized):
+        if isinstance(target, dict) and isinstance(source, dict) and isinstance(localized, dict):
+            for key in target:
+                if key not in source or key not in localized:
+                    continue
+                if is_translatable_key(key):
+                    if target[key] == source[key] and isinstance(source[key], (str, list)):
+                        target[key] = copy.deepcopy(localized[key])
+                elif isinstance(target[key], (dict, list)):
+                    walk(target[key], source[key], localized[key])
+        elif isinstance(target, list) and isinstance(source, list) and isinstance(localized, list):
+            if len(target) != len(source) or len(source) != len(localized):
+                raise ValueError("目标贡献项结构与翻译源不匹配，拒绝按位置安装")
+            for item, src, loc in zip(target, source, localized):
+                walk(item, src, loc)
+
+    walk(result, original, translated)
+    return result
 
 def load_json(filepath):
     """加载 JSON 文件"""
@@ -192,14 +242,19 @@ def cmd_install():
         print(f"错误: 找不到翻译文件: {translated_path}")
         sys.exit(1)
 
-    # 备份原文件
-    if package_path.exists() and not backup_path.exists():
+    current_bytes = package_path.read_bytes()
+    current = json.loads(current_bytes)
+    localized = translated_package(current, load_json(DATA_DIR / 'package-v18-en.json'),
+                                   load_json(translated_path))
+    if backup_path.exists():
+        validate_package(load_json(backup_path))
+    else:
         print(f"备份原文件: {backup_path}")
-        shutil.copy2(package_path, backup_path)
+        atomic_write(backup_path, current_bytes)
 
     # 安装翻译
     print(f"安装翻译到: {package_path}")
-    shutil.copy2(translated_path, package_path)
+    atomic_write(package_path, json.dumps(localized, ensure_ascii=False, indent='\t').encode('utf-8'))
 
     print("\n翻译安装完成!")
     print("请重启 VS Code 使翻译生效")
@@ -221,7 +276,9 @@ def cmd_restore():
         sys.exit(1)
 
     print(f"恢复英文原版: {package_path}")
-    shutil.copy2(backup_path, package_path)
+    validate_package(load_json(package_path))
+    validate_package(load_json(backup_path))
+    atomic_write(package_path, backup_path.read_bytes())
 
     print("\n已恢复英文原版!")
     print("请重启 VS Code 生效")
@@ -357,7 +414,11 @@ def main():
     }
 
     if command in commands:
-        commands[command]()
+        try:
+            commands[command]()
+        except (ValueError, OSError) as error:
+            print(f"错误: {error}")
+            sys.exit(1)
     else:
         print(f"未知命令: {command}")
         cmd_help()

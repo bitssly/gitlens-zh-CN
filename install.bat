@@ -7,10 +7,12 @@ echo.
 echo [1/2] 安装 package.json 翻译...
 echo.
 python "%~dp0translate.py" install
+if errorlevel 1 exit /b 1
 echo.
 echo [2/2] 应用 JS 文件翻译...
 echo.
 python "%~dp0translate_js.py" apply
+if errorlevel 1 exit /b 1
 echo.
 echo ========================================
 echo 翻译安装完成！请重启 VS Code/Cursor。

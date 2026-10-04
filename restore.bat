@@ -7,10 +7,12 @@ echo.
 echo [1/2] 恢复 package.json...
 echo.
 python "%~dp0translate.py" restore
+if errorlevel 1 exit /b 1
 echo.
 echo [2/2] 恢复 JS 文件...
 echo.
 python "%~dp0translate_js.py" restore
+if errorlevel 1 exit /b 1
 echo.
 echo ========================================
 echo 已恢复英文原版！请重启 VS Code/Cursor。

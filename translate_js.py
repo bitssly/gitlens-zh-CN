@@ -19,6 +19,7 @@ import shutil
 from pathlib import Path
 from datetime import datetime
 from collections import OrderedDict
+from translate import validate_package
 
 # ============================================================
 # 配置
@@ -103,6 +104,15 @@ def find_gitlens_dirs():
             if d.name.startswith('eamodio.gitlens-'):
                 found.append(d)
     return found
+
+
+def checked_installations():
+    directories = find_gitlens_dirs()
+    if len(directories) != 1:
+        raise ValueError('需要明确唯一 GitLens 安装目录；拒绝写入多个或未知目标')
+    for directory in directories:
+        validate_package(json.loads((directory / 'package.json').read_text(encoding='utf-8')))
+    return directories
 
 
 def backup_file(filepath):
@@ -403,7 +413,7 @@ def cmd_apply():
     all_trans = load_all_translations()
     print(f"主字典: {len(main_trans)} 条 | Webview 字典: {len(webview_trans)} 条 | 合计: {len(all_trans)} 条\n")
 
-    gitlens_dirs = find_gitlens_dirs()
+    gitlens_dirs = checked_installations()
     if not gitlens_dirs:
         print("错误: 找不到 GitLens 扩展目录")
         sys.exit(1)
@@ -460,7 +470,7 @@ def cmd_apply():
 
 def cmd_restore():
     """恢复原版 gitlens.js"""
-    gitlens_dirs = find_gitlens_dirs()
+    gitlens_dirs = checked_installations()
     if not gitlens_dirs:
         print("错误: 找不到 GitLens 扩展目录")
         sys.exit(1)
